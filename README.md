@@ -1,9 +1,16 @@
 # React + Vite
+mpn create vite
+# Seleccionando yb frmawork y una variable en este caso react y js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#para instalar dependencias node_modules
+npm install
+#antes de ejecutar run realizar:
+code.
+#para levantar el servicio:
+npm run dev
 
-Currently, two official plugins are available:
+#se instalo react-boostrap con terminal gitbash
+npm install react-bootstrap@next bootstrap@5.0.2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# mama_mia
+realizar importacion de react-bootstrap:
+import 'nootstrap/dist/css/bootstrap.min.css';  realizarlo en App.jsx
