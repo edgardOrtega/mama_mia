@@ -3,6 +3,8 @@ import './App.css'
 import Navbars from './components/Navbars'
 import Home from './components/Home';
 import Footer from './components/Footer';
+import RegisterPage from './components/RegisterPage';
+import LoginPage from './components/LoginPage';
 
 function App() {
 
@@ -10,7 +12,9 @@ function App() {
   return (
     <>
       <Navbars/>
-      <Home/>
+      {/* <Home/> */}
+{/*       <RegisterPage/> */}
+      <LoginPage/>
       <Footer/>
     </>
   )
